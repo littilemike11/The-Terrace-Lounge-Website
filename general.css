@@ -1,0 +1,69 @@
+body{
+    padding: 0px;
+}
+.header{
+    display: block;
+    border: 10px  black;
+    border-style:double;
+    width: 100%;
+    height: 30px;
+    top: 0;
+    /* affect layers of widgets*/
+    z-index: 10;
+    position: absolute;
+}
+.header a{
+    color: black;
+    padding-left: 10px;
+    line-height: 30px;
+}
+.header a:link { text-decoration: none; }
+.header a:visited { text-decoration: none; }
+.header a:hover { text-decoration: none; }
+.header a:active { text-decoration: none; }
+
+.mastHead{
+    margin-top: 50px;
+    background-image: url("/images/TerraceLounge1.JPG");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+.mastHead p,
+.mastHead address{
+    
+    color: whitesmoke;
+    text-align: center;
+    
+}
+.welcome{
+    padding-top: 200px;
+    font-size: 2em;
+}
+.name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5em;
+}
+.slogan{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+}
+address{
+    font-size:larger;
+}
+#section-Contact{
+    text-align: center;
+    font-size: large;
+}
+#section-About{
+    text-align: center;
+}
+.rules{
+    font-size: large;
+}
+.warning{
+    color: red;
+}
