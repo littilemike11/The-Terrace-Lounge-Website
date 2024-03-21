@@ -90,6 +90,12 @@ img{
     background-size: cover;
     
 }
+/* disable parallax on mobile */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
 
 #section-Contact{
     text-align: center;
@@ -107,8 +113,6 @@ img{
 #section-Foods{
     margin-top: 450px;
 }
-
-
 
 * {box-sizing: border-box}
 body {font-family: "Lato", sans-serif;}
