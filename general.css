@@ -80,9 +80,11 @@ img{
     padding: 200px;
     background-image: url("images/TerraceLounge2.JPG");
     color: white;
+    text-align: center;
     
 }
 .parallax{
+    width: 100%;
     height: 600px;
     background-attachment: fixed;
     background-position: center;
