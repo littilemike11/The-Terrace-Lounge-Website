@@ -71,10 +71,10 @@ img{
     height: 600px;
 }
 .p1{
-    background-image: url("/images/360_F_360148092_QRVKZlYhN1CR3SW01ETPupvWCWJI71tO.jpg");
+    background-image: url("images/360_F_360148092_QRVKZlYhN1CR3SW01ETPupvWCWJI71tO.jpg");
 }
 .p2{
-    background-image: url("/images/istockphoto-598146358-612x612.jpg");
+    background-image: url("images/istockphoto-598146358-612x612.jpg");
 }
 .p3{
     padding: 200px;
