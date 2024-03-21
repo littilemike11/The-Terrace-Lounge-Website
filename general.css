@@ -24,7 +24,7 @@ body{
 
 .mastHead{
     margin-top: 50px;
-    background-image: url("/images/TerraceLounge1.JPG");
+    background-image: url("images/TerraceLounge1.JPG");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
