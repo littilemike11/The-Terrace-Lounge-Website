@@ -37,10 +37,74 @@
   </div>
 
   <div id="section-Events">
+    <h2>Event Themes</h2>
+    <p>Note! : Some days are subject to change.
+    <div class="tab">
+      <button class="tablinks" onclick="openDay(event, 'Monday')" id="defaultOpen">Monday</button>
+      <button class="tablinks" onclick="openDay(event, 'Tuesday')">Tuesday</button>
+      <button class="tablinks" onclick="openDay(event, 'Wednesday')">Wednesday</button>
+      <button class="tablinks" onclick="openDay(event, 'Thursday')" id="defaultOpen">Thursday</button>
+      <button class="tablinks" onclick="openDay(event, 'Friday / Saturday')">Friday / Saturday</button>
+      <button class="tablinks" onclick="openDay(event, 'Sunday')">Sunday</button>
+    </div>
+
+    <div id="Monday" class="tabcontent">
+      <h3>Monday</h3>
+      <p>Game Night - bingo, ludi, dominoes ...etc</p>
+    </div>
+
+    <div id="Tuesday" class="tabcontent">
+      <h3>Tuesday</h3>
+      <p>Seafood Tuesday</p>
+    </div>
+
+    <div id="Wednesday" class="tabcontent">
+      <h3>Wednesday</h3>
+      <p>Young Adults - Under 30 and college</p>
+    </div>
+    <div id="Thursday" class="tabcontent">
+      <h3>Thursday</h3>
+      <p>Kareoke Night - Sing like there's no Tomorrow</p>
+    </div>
+
+    <div id="Friday / Saturday" class="tabcontent">
+      <h3>Friday / Saturday</h3>
+      <p>Parties</p>
+    </div>
+
+    <div id="Sunday" class="tabcontent">
+      <h3>Sunday</h3>
+      <p>Oldies but Goodies</p>
+    </div>
 
   </div>
-  <div id="section-Foods">
+  <script>
+    function openDay(evt, dayName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(dayName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
 
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+
+  <div id="section-Foods">
+    <h3>Finger Foods</h3>
+    <p>Wraps</p>
+    <p>Wings</p>
+    <p>Curry</p>
+    <p>Fish</p>
+    <p>Vegan</p>
+    <p>Potatoes Special (different French Fries & Potatoes)</p>
   </div>
 
   <img src="images/TerraceLounge2.JPG">
