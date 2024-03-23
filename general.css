@@ -26,10 +26,10 @@ div{
     padding-left: 10px;
     line-height: 30px;
 }
-.header a:link { text-decoration: none; }
-.header a:visited { text-decoration: none; }
-.header a:hover { text-decoration: none; }
-.header a:active { text-decoration: none; }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
 
 .mastHead{
     margin-top: 50px;
