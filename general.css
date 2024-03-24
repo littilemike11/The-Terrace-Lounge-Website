@@ -52,6 +52,9 @@ a:active { text-decoration: none; }
     padding-top: 200px;
     font-size: 2em;
 }
+.to{
+    font-size: 2em;
+}
 .name{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 5em;
